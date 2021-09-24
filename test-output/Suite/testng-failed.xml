@@ -8,43 +8,13 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="url" value="http://automationpractice.com/index.php"/>
     <classes>
-      <class name="com.qa.testscripts.TC_CreateNewAddress_001">
+      <class name="com.qa.testscripts.TC_ChooseCategory_001">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="newAddress" invocation-numbers="0"/>
+          <include name="chooseCategory"/>
         </methods>
-      </class> <!-- com.qa.testscripts.TC_CreateNewAddress_001 -->
-      <class name="com.qa.testscripts.TC_Register_001">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="Register" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.qa.testscripts.TC_Register_001 -->
-      <class name="com.qa.testscripts.TC_QuickView_001">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="quickView" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.qa.testscripts.TC_QuickView_001 -->
-      <class name="com.qa.testscripts.TC_CheckOut_002">
-        <methods>
-          <include name="setUp"/>
-          <include name="checkOut"/>
-          <include name="tearDown"/>
-          <include name="searchItem" invocation-numbers="1"/>
-          <include name="Summary"/>
-        </methods>
-      </class> <!-- com.qa.testscripts.TC_CheckOut_002 -->
-      <class name="com.qa.testscripts.TC_OrderHistory_001">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="checkHistory" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.qa.testscripts.TC_OrderHistory_001 -->
+      </class> <!-- com.qa.testscripts.TC_ChooseCategory_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
