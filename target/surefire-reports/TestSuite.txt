@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 681.556 s <<< FAILURE! - in TestSuite
+quickView(com.qa.testscripts.TC_QuickView_001)  Time elapsed: 65.429 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[2]/div[1]/div[1]/a[1]"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T6IGM', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Kokila\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fcd0e0227c3f5da2d2da05a6eb9bf3b3
+*** Element info: {Using=xpath, value=//body/div[2]/div[1]/div[1]/a[1]}
+	at com.qa.testscripts.TC_QuickView_001.quickView(TC_QuickView_001.java:56)
+
+checkOut(com.qa.testscripts.TC_CheckOut_002)  Time elapsed: 22.054 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#addressesAreEquals"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T6IGM', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Kokila\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5047251beb268d15efdcc7a396eb65af
+*** Element info: {Using=id, value=addressesAreEquals}
+	at com.qa.testscripts.TC_CheckOut_002.checkOut(TC_CheckOut_002.java:38)
+
+personalInfo(com.qa.testscripts.TC_UpdateMyPersonInfo_001)  Time elapsed: 36.982 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.testscripts.TC_UpdateMyPersonInfo_001.personalInfo(TC_UpdateMyPersonInfo_001.java:26)
+
+newAddress(com.qa.testscripts.TC_UpdateAddress_001)  Time elapsed: 43.463 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[9]/a[1]/span[1]"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-85T6IGM', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\Kokila\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c132b94fb362dceb59ba5122480534b
+*** Element info: {Using=xpath, value=//body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[9]/a[1]/span[1]}
+	at com.qa.testscripts.TC_UpdateAddress_001.newAddress(TC_UpdateAddress_001.java:22)
+
